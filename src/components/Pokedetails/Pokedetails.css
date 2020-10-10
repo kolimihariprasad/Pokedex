@@ -1,0 +1,260 @@
+.backgrond {
+    max-width: 100%;
+    padding: 30px;
+    margin: 8px;
+    border-radius: 20px;
+}
+.headr {
+    display: flex;
+    justify-content: space-between;
+}
+.pokedex__logo {
+    height: 70px;
+    width: 200px;
+    opacity: 0.7;
+}
+.left__header {
+    color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.name__poke {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.pokedtail__body {
+    position: relative;
+    overflow: hidden;
+}
+.japoke__name{
+    font-size: 150px;
+    position: absolute;
+    color:black;
+    margin-top: 40px;
+    margin-left: 120px;
+    opacity: 0.33;
+}
+.bold {
+    font-weight: bold;
+}
+.poke__img {
+
+    margin-left: 195px;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    z-index: 2;
+}
+.mesurments {
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 70px;
+}
+.about__poke {
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 770px;
+}
+.pokedet__type {
+    
+    text-align: center;
+    font-weight: bold;
+    margin: 8px;
+    padding: 5px;
+    background-color:black;
+    border-radius: 15px;
+    opacity: 0.3;
+}
+.poke__desc {
+    color: white;
+    position: absolute;
+    width:400px;
+    padding-top: 290px;
+    padding-left: 780px;
+}
+.pokedtail__body {
+    display: flex;
+}
+.stats{
+    margin-top: 25px;
+}
+.Stats_name {
+    color: white;
+    font-weight: bold;
+}
+.Stats__bars {
+    display: flex;
+    margin-top: 10px;
+}
+.gen__progress{
+    margin: auto 0px;
+    padding:0;
+    width:255px;
+    height:15px;
+    overflow:hidden;
+    background:#d4d1d4;
+    border-radius:6px;
+    border-radius:5px;   
+}
+
+.progress {
+    margin: auto 0px;
+    padding:0;
+    width:255px;
+    height:15px;
+    overflow:hidden;
+    background:#d4d1d4;
+    border-radius:6px;
+    border-radius:15px;
+  }
+  .gen__bar {
+    position:relative;
+    min-width:1%;
+    height:100%;
+  }
+  .bar {
+    position:relative;
+    min-width:1%;
+    height:100%;
+    border-radius:15px;
+    background-color: black;
+    opacity: 0.4;
+  } 
+  .percent {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    font-family:tahoma,arial,helvetica;
+    font-size:12px;
+    color:white;
+  }
+.bottom__details {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+  }
+
+.profile__details {
+    display: flex;
+    margin-top: 10px;
+}
+.profile__name {
+    color: white;
+    font-weight: bold;
+    width: 150px;
+}
+.profile__value {
+    color: white;
+}
+.back__btn {
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+    margin-left: 560px;
+}
+
+@media (max-width:768px){
+    .poke__img{
+        margin-left: 155px;
+        width: 350px;
+        height: 350px;
+    }
+    .mesurments{
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .japoke__name{
+    font-size: 100px;
+    }
+    .bold {
+        font-weight: bold;
+        font-size: small ;
+    }
+    .height, .weight {
+        font-size: small;
+    }
+    .about__poke {
+        padding-top: 250px;
+        padding-left: 490px;
+    }
+    .poke__desc {
+        display: none;
+    }
+    .progress {
+        padding:0;
+        width:200px;
+      }
+      .gen__progress{
+        width:200px;
+    }
+    profile__name {
+        width: 100px;
+    }
+    .back__btn {
+        margin-left: 260px;
+    }
+}
+@media (max-width:500px){
+    .pokedex__logo {
+        height: 50px;
+        width: 150px;
+        opacity: 0.7;
+    }
+    .left__header {
+        color: white;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .poke__img{
+        margin-left:1px ;
+        margin-top: 5px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 110px;
+    }
+    .mesurments{
+        z-index: 3;
+        padding-top: 120px;
+        padding-left: 70px;
+    }
+    .about__poke {
+        z-index: 3;
+        padding-top: 370px;
+        padding-left: 100px;
+    }
+    .japoke__name{
+    font-size: 60px;
+    margin-left: 15px;
+    margin-top: 80px;
+    }
+    .poke__desc {
+        display: none;
+    }
+    .progress {
+        padding:0;
+        width:200px;
+      }
+      .gen__progress{
+        width:200px;
+    }
+    .profile__name {
+        width: 100px;
+    }
+    .back__btn {
+        margin-left: 115px;
+    }
+    .bottom__details {
+        display: table-row;
+      }
+    
+}

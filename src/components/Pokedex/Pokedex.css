@@ -1,0 +1,44 @@
+.poke-container {
+  display: flex;
+	flex-wrap: wrap;
+  margin:auto;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__container {
+  position: sticky;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+.input__field{
+  padding: 10px;
+  width: 350px !important;
+}
+.search__icon {
+    padding: 5px;
+    height: 37px !important;
+    width: 30px !important;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 80px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color:#4E5DFF;
+  color: white;
+  border-width: 1px;
+}
